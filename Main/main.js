@@ -13,7 +13,7 @@ function updateConnectionStatus(connected) {
 
 function updateCameraStatus(active) {
     isCameraActive = active;
-    videoOverlay.textContent = active ? 'Cámara activada' : 'Cámara inactiva';
+    videoOverlay.textContent = active ? 'Càmera activada' : 'Càmera desactivada';
     video.style.opacity = active ? 1 : 0.5; // Feedback visual adicional
 }
 
